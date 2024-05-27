@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-Regular.eot');
+    src: local('Inter Regular'), local('Inter-Regular'),
+    url('../assets/fonts/Inter-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/Inter-Regular.woff2') format('woff2'),
+    url('../assets/fonts/Inter-Regular.woff') format('woff'),
+    url('../assets/fonts/Inter-Regular.ttf') format('truetype'),
+    url('../assets/fonts/Inter-Regular.svg#Inter-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'bonus-icons';
+    src: url('../assets/fonts/icons-font/fonts/bonus-icons.eot?22euoi');
+    src: url('../assets/fonts/icons-font/fonts/bonus-icons.eot?22euoi#iefix') format('embedded-opentype'),
+    url('../assets/fonts/icons-font/fonts/bonus-icons.ttf?22euoi') format('truetype'),
+    url('../assets/fonts/icons-font/fonts/bonus-icons.woff?22euoi') format('woff'),
+    url('../assets/fonts/icons-font/fonts/bonus-icons.svg?22euoi#bonus-icons') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="bonus-icons-"], [class*=" bonus-icons-"] {
+    font-family: 'bonus-icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.bonus-icons-arrow-down:before {
+    content: "\e900";
+}
+
+.bonus-icons-arrow-right:before {
+    content: "\e901";
+}
+
+.bonus-icons-block-quote-svgo-com:before {
+    content: "\e902";
+}
+
+.bonus-icons-instagram:before {
+    content: "\e903";
+}
+
+.bonus-icons-tiktok-svgo-com:before {
+    content: "\e904";
+}
+
+.bonus-icons-twitter:before {
+    content: "\e905";
+}
